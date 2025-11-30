@@ -3,11 +3,11 @@
 int main() {
     system("chcp 1251");
     char line[1000];
-    printf("Введите строку: ");
+    printf("Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ");
     fgets(line, sizeof(line), stdin);
 
     int i = 0;
-    printf("Слова с тире:\n");
+    printf("РЎР»РѕРІР° СЃ С‚РёСЂРµ:\n");
 
     while (line[i]) {
         while (line[i] == ' ' || line[i] == '\t' || line[i] == '\n' ||
