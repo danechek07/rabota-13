@@ -19,7 +19,6 @@ int main() {
         int start = i;
         int has_dash = 0;
 
-
         while (line[i]) {
             char c = line[i];
             if (c == ' ' || c == '\t' || c == '\n' ||
